@@ -1,6 +1,6 @@
-#include <stido.h>
+#include <stdio.h>
 int main(void)
-{ char y = "Programming is like building a multilingual puzzle";
-puts(y);
+{ char grettings[] = "Programming is like building a multilingual puzzle";
+puts(grettings);
 return (0);
 }
