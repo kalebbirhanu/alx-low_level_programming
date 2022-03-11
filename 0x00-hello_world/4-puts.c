@@ -1,6 +1,8 @@
 #include <stdio.h>
+/* this is main function */
 int main(void)
-{ char grettings[] = "Programming is like building a multilingual puzzle";
-puts(grettings);
+{
+/* This is programm that show output */
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
