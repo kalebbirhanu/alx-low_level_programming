@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* this is main function */
+/**
+ *main - 4-puts.c file
+ */
 int main(void)
 {
 /* This is programm that show output */
