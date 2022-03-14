@@ -1,0 +1,23 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (succes)
+ */
+/* more headers goes there */
+
+
+int main(void)
+{
+	int x;
+
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		if (x != 'q' && x != 'e')
+		{
+			putchar(x);
+		}
+	}
+	putchar('\n');
+	return (0);
+}
