@@ -8,10 +8,12 @@
 
 
 int main(void)
-{ for (int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to ... in order.
+{
+	for (int x = 'a'; x <= 'z'; x++)
 	{
-		putchar(tolower(x)); // the return value is returned as a parameter
-			        }
+		putchar(x);
 	}
-		return (0);
+	}
+	putchar('\n');
+	return (0);
 }
