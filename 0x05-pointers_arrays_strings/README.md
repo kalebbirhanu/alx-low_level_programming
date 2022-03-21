@@ -1,1 +1,1 @@
-this is another programming project.
+#pointers arrays and strings
